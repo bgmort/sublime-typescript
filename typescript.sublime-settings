@@ -1,5 +1,4 @@
 {
     "extensions": ["ts", "str"],
-    "auto_complete": true,
-    "node_path" : "/Users/martijnlaarman/.nvm/v0.10.4/bin/node"
+    "auto_complete": true
 }
