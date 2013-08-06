@@ -3,3 +3,4 @@ src/*.js
 core/settings.py
 *.pyc
 *.cache
+typescript-*-*.sublime-build

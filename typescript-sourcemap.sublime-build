@@ -1,10 +1,10 @@
 {
-    "cmd": ["tsc", "-target", "ES5", "$file"],
+    "cmd": ["tsc", "-target", "ES5", "-sourcemap", "$file"],
     "file_regex": "(.*\\.ts?)\\s\\(([0-9]+)\\,([0-9]+)\\)\\:\\s(...*?)$",
     "selector": "source.ts",
 
     "windows": {
-        "cmd": ["tsc", "-target", "ES5", "$file"]
+        "cmd": ["tsc", "-sourcemap" , "-target", "ES5", "$file"]
     },
     "osx": {
        "path": "/usr/local/bin:/opt/local/bin"
