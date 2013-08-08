@@ -1,7 +1,8 @@
 Sublime-Typescript
 ==================
 
-A Sublime Text plugin for the Typescript language 
+A Sublime Text plugin for the Typescript language.
+Versions for both Sublime Text 2 and Sublime Text 3 are available through the `st2` and `master` branches.
 
 Installation
 ------------
